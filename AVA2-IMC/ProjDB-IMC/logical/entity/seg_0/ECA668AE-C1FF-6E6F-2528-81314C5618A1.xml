@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECA668AE-C1FF-6E6F-2528-81314C5618A1" name="IMC">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:10:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="peso" id="4512DB26-8FA4-F233-9FE5-F33F091DA732">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:11:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="35A2FFEA-97B3-1688-F2A0-32AF75E48643">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:11:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultadoImc" id="42012BDD-AA83-9B9D-AC09-9F3853D240D2">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:14:36 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPesquisa" id="07BCF490-8229-A288-A8DA-12D2ECF652DB">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:15:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classificacao" id="8989DD6F-4EFC-E107-E064-5DA69F8B03D8">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-04-03 23:21:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2E0A221E-5E8D-EAE1-A177-17C4D0B8A056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
