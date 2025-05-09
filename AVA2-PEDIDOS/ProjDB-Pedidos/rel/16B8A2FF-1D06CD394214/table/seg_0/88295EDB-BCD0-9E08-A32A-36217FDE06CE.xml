@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88295EDB-BCD0-9E08-A32A-36217FDE06CE" name="ItensPedido">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>0C5EDDC6-A6C0-4E15-41EA-E3D3D761127B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="D4390A4C-FD10-4F1A-3E8F-B2682FB3DCE8">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>50259B14-47C6-FFBB-424E-17D3B930C91A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoItensPedido" id="078633DD-2AE7-E401-95EE-323F839D9A9D">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>D57A2C72-9FA7-CA0B-399E-0F8D749EE543</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeItensPedido" id="9A0549B6-A0E5-3686-4EDF-DDCEA8307E9D">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>6A38300B-5613-211C-61AB-B3A880136FE5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeIntenspedido" id="B477500A-BFAD-1B1C-CA6D-4B92C68D9D13">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>27EB3892-BDEF-2183-94A6-DC6614C77090</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioItensPedido" id="122B0CCE-AB51-B6B1-6FDF-AC92F3ED3124">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>ADB4627B-EAB7-5032-EBD9-ED41FB8DEC89</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_idPedido" id="B0778C42-98BB-1E6E-3951-63B62FCE3439">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>C67DC717-94BB-EA0E-544E-6B475EAD69E3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77717E6D-97A5-537A-C103-7A17DE1FFABF" referredColumn="3C9686C5-A67B-EC35-D1FC-BDED56D82DAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAC39004-1E08-99F5-3FCB-731067CDF498" name="ItensPedido_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>DB486A29-9238-74FD-33D1-4F10FC0CF065</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4390A4C-FD10-4F1A-3E8F-B2682FB3DCE8"/>
+<colUsage columnID="078633DD-2AE7-E401-95EE-323F839D9A9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48971AAD-7896-A8C6-F9AB-E8400536F8FA" name="ItensPedido_Pedido_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>D05B2B03-C0DA-49CF-8965-2ACCF308B82F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0778C42-98BB-1E6E-3951-63B62FCE3439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

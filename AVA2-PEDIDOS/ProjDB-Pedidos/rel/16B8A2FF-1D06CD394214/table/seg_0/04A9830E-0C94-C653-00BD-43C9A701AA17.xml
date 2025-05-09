@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04A9830E-0C94-C653-00BD-43C9A701AA17" name="TelefoneCliente">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>80535E6D-2DAE-7C29-AAE8-9B9738855CE9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="51D962B0-9DDA-79CE-2821-A6B798C936ED">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>C2BC0593-FD66-F9C0-2547-4E4BAFDC5049</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="791EB80E-7A6D-E235-D0B5-B1A3ECA663B3">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>A093C5F5-FFA8-551A-465D-7B9F788E448F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="440F6E8E-E908-E70E-7D64-DCD71B65AD59">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>DFE94350-9728-0543-3065-B7B6CC673711</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF73E486-E55E-D786-2B41-4E241E54E278" referredColumn="A858D4E0-85D0-2BA0-C50B-16EA061043FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F650DDF9-8FB5-6478-A427-CD662465F6DD" name="TelefoneCliente_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>DF729B04-5B5F-EED2-8962-C7B181F86040</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D962B0-9DDA-79CE-2821-A6B798C936ED"/>
+<colUsage columnID="791EB80E-7A6D-E235-D0B5-B1A3ECA663B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2522AA54-FB82-3389-BBD4-D28B6908E9D9" name="TelefoneCliente__IDX">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="440F6E8E-E908-E70E-7D64-DCD71B65AD59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E85D62B8-3660-E74B-D4F4-FA837A380963" name="TelefoneCliente_Cliente_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="440F6E8E-E908-E70E-7D64-DCD71B65AD59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

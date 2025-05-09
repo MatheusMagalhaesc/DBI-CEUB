@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EAB7103-0EC2-BBA4-DE8E-BE07BBF0D63E" name="Cliente">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:01:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="4517AAD6-8EC5-5118-1D32-56639D594D67">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:01:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="2CD55708-749C-9434-7199-068002F46749">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:01:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="48956BF8-326C-5729-8256-26509555CC95">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:10:29 UTC</createdTime>
+<generatorID>3303C78D-CECA-65CF-1D2A-77616D4402C8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<referedAttribute>9D7581A1-7582-B286-F5CA-EE785DAFB811</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente2" id="3F674B26-6372-39DB-F070-AB9047D83AA3">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:11:34 UTC</createdTime>
+<generatorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<referedAttribute>C2BC0593-FD66-F9C0-2547-4E4BAFDC5049</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="5D02F186-BE7E-0454-013B-1206DC7D23B7">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:11:34 UTC</createdTime>
+<generatorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<referedAttribute>A093C5F5-FFA8-551A-465D-7B9F788E448F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC284B2B-3453-EF27-C1B3-FEC9B6DC576F" name="Cliente PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:01:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4517AAD6-8EC5-5118-1D32-56639D594D67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

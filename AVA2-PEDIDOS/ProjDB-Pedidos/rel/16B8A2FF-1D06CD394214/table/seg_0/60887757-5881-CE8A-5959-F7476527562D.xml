@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60887757-5881-CE8A-5959-F7476527562D" name="Pedido">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>FB85BC2C-AF41-71A0-CC60-873A88736C96</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="3C9686C5-A67B-EC35-D1FC-BDED56D82DAA">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>A0D47DE5-062F-E42E-8CA3-2BA8B58407D6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeClientePedido" id="BF69B447-076D-A242-FC50-324E0FCEBDBC">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>A9F0B9A0-9E7E-416A-1655-56F4FCD55025</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="AF8F2080-FADB-6C65-84B0-58DEBBC1B968">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>62CA7A22-C2B5-9FB2-B3BD-1C928D341759</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="AE140472-3AF1-844D-E09F-E30FCAFD0A1F">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>03B3607C-F4A4-D8EE-38AF-5128B3206D0B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_matriculaVendedor" id="8AEC74D0-6BDD-8933-64E0-E57F00B4A79A">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>3E693187-7989-CFB8-7F04-8543A77DD3FF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E373C88B-46D0-846A-CF6D-81224701FBB7" referredColumn="B7F05428-1CBA-20B3-C0FA-7A9E85B14585"/>
+</associations>
+</Column>
+<Column name="statusPedido" id="E0FDF021-34B3-FF29-6937-75F07F06E30D">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>D7F73076-247C-CEB4-07FC-7BD51A6FEBFC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACBAEC84-2674-665F-FA11-919F14ED573A" name="Pedido_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>F7C8625E-3005-0D5D-9337-90974EB3B2BA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C9686C5-A67B-EC35-D1FC-BDED56D82DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4DC5B3F-3CB5-370C-3BE1-697A306B26F9" name="Pedido_Vendedor_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>D7FDA79C-174E-698C-E607-197554FCF82E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AEC74D0-6BDD-8933-64E0-E57F00B4A79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

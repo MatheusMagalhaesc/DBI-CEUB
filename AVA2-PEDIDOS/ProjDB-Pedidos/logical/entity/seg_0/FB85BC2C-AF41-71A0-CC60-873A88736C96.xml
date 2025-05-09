@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB85BC2C-AF41-71A0-CC60-873A88736C96" name="Pedido">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:19:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPedido" id="A0D47DE5-062F-E42E-8CA3-2BA8B58407D6">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:19:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClientePedido" id="A9F0B9A0-9E7E-416A-1655-56F4FCD55025">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:20:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="62CA7A22-C2B5-9FB2-B3BD-1C928D341759">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:21:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="03B3607C-F4A4-D8EE-38AF-5128B3206D0B">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:21:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="3E693187-7989-CFB8-7F04-8543A77DD3FF">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:28:23 UTC</createdTime>
+<generatorID>D7FDA79C-174E-698C-E607-197554FCF82E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<referedAttribute>42EA7376-D72B-D157-B28B-FD6AD419828C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="D7F73076-247C-CEB4-07FC-7BD51A6FEBFC">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:32:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7C8625E-3005-0D5D-9337-90974EB3B2BA" name="Pedido PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:20:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="16B8A2FF-8D20-AFEB-D490-1D06CD394214" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0D47DE5-062F-E42E-8CA3-2BA8B58407D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

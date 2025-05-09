@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C55CE34-07BA-3B6D-B1E5-C89F12FE3204" name="Cliente">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>5EAB7103-0EC2-BBA4-DE8E-BE07BBF0D63E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="A858D4E0-85D0-2BA0-C50B-16EA061043FB">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>4517AAD6-8EC5-5118-1D32-56639D594D67</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="C0E21DA0-C706-4355-9462-BDD49E238F61">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>2CD55708-749C-9434-7199-068002F46749</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCliente_cpfCliente" id="9A470D5C-8DF6-D0B4-57E9-2BB2B714675A">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>48956BF8-326C-5729-8256-26509555CC95</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="478C2E86-8189-7DEA-3B77-B3FE4C331BAB" referredColumn="4B1F5251-7C27-02DE-C725-015A6C58F8CC"/>
+</associations>
+</Column>
+<Column name="TelefoneCliente_cpfCliente" id="23BF2E4C-7CBE-6628-AFF9-AB4714AE4206">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>3F674B26-6372-39DB-F070-AB9047D83AA3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B6C147B-CDB9-DDF2-86B5-F339AC60E627" referredColumn="51D962B0-9DDA-79CE-2821-A6B798C936ED"/>
+</associations>
+</Column>
+<Column name="TelefoneCliente_telefoneCliente" id="E3916292-CE32-8311-C000-3F6A454E9D35">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>5D02F186-BE7E-0454-013B-1206DC7D23B7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B6C147B-CDB9-DDF2-86B5-F339AC60E627" referredColumn="791EB80E-7A6D-E235-D0B5-B1A3ECA663B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40EB8EC3-C8C1-DED7-9AF0-A66B6AF53260" name="Cliente_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>EC284B2B-3453-EF27-C1B3-FEC9B6DC576F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A858D4E0-85D0-2BA0-C50B-16EA061043FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68A16B9E-7F9F-DCFA-10F6-200D24E28487" name="Cliente__IDX">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3303C78D-CECA-65CF-1D2A-77616D4402C8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9A470D5C-8DF6-D0B4-57E9-2BB2B714675A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85728C50-54D4-1C8F-86D4-174C79B671FE" name="Cliente__IDXv1">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="23BF2E4C-7CBE-6628-AFF9-AB4714AE4206"/>
+<colUsage columnID="E3916292-CE32-8311-C000-3F6A454E9D35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16993CE7-B4C9-CFF3-0334-D2388C2237A7" name="Cliente_EnderecoCliente_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>3303C78D-CECA-65CF-1D2A-77616D4402C8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A470D5C-8DF6-D0B4-57E9-2BB2B714675A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="323C2F98-1CBF-E9E4-8E83-8693D6804CC7" name="Cliente_TelefoneCliente_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-09 00:35:57 UTC</createdTime>
+<generatorID>FC883400-F133-6C88-E3F6-ECD25EFD9947</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23BF2E4C-7CBE-6628-AFF9-AB4714AE4206"/>
+<colUsage columnID="E3916292-CE32-8311-C000-3F6A454E9D35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
