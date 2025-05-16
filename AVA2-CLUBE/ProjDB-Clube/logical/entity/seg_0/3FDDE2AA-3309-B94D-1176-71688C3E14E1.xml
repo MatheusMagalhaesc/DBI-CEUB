@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FDDE2AA-3309-B94D-1176-71688C3E14E1" name="Dependente">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:30:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="AC577002-1A63-5AD5-44B3-E28FEA2D4425">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:30:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="95F90D82-B149-7AA4-D59A-F4516D822324">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:31:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoDependente" id="44316C00-E7BA-6FD0-75E9-F71A9A9096E8">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:32:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentescoDependente" id="C19CC418-E339-8510-9133-6F5D50D5E836">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:40:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="DABFD926-5949-00F0-1709-85316FC1948B">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:58:31 UTC</createdTime>
+<generatorID>5FD66DC3-1937-32DC-D340-94152467C800</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F7FA4241-257C-E7CB-9DA3-FFB491D2EB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="392B41E4-02F5-6C86-5793-8A3BAF049DF0">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:33:43 UTC</createdTime>
+<generatorID>D956ED33-E0D9-C5D2-F835-52699F4FDA2E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<referedAttribute>A5B92AC8-59A1-B9E5-8E45-BA29ACF7D68F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="C73B920D-4B9F-12FD-D106-769C84F52B81">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:42:05 UTC</createdTime>
+<generatorID>D956ED33-E0D9-C5D2-F835-52699F4FDA2E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<referedAttribute>C2958B40-B206-261D-38DF-2BE81ADA8CF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C97AFC2-B3D3-0139-68D1-F103C2382ADD" name="Dependente PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:31:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC577002-1A63-5AD5-44B3-E28FEA2D4425</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

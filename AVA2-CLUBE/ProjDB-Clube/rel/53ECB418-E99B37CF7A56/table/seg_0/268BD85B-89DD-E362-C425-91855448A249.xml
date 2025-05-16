@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="268BD85B-89DD-E362-C425-91855448A249" name="Endereco">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>8F13006B-92D9-BB8E-8519-D1B38E6BE828</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="B13B78C8-FF98-66EF-34A8-D741DD163C98">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>A5B92AC8-59A1-B9E5-8E45-BA29ACF7D68F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEndereco" id="1F03D920-9A3D-EB83-0CF4-69C6C3F27FC6">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>C2958B40-B206-261D-38DF-2BE81ADA8CF4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEndereco" id="7DB4C699-ED8B-74E1-4A7D-26FCF0095DC6">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>6053EF03-3CA5-2D7B-193C-F64C3C4F04A8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEndereco" id="18D3F777-03CE-C7C5-59FB-5CFDDA326025">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>5E66D639-A0D5-090A-EEE1-927A94897567</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEndereco" id="1C0563B1-5487-AF48-E8EC-47C5736EC98F">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>46A5AB15-860D-B149-9709-C9DEDC5F42AB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEndereco" id="4ED47B3A-E4DB-BC2B-7D14-E95DEDA42A55">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>93332ABF-951F-C412-94F0-D34C92DB0304</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEndereco" id="2D779FD9-DC20-E755-15DE-2A52070C9E19">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>5346CE2E-7ACD-08DB-0045-4C67C626E5E3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_cpfTitular" id="90F4F916-87C2-0CB7-A6D3-A0394E8DC225">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>6E88DB38-A842-45CE-DBBE-43D5114ACC57</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7263FC3B-546C-E8A3-DD14-E4F2753ACD6D" referredColumn="D5E317E1-E7A5-600B-4D9E-602D3F7DFDD5"/>
+</associations>
+</Column>
+<Column name="Dependente_cpf" id="4FED2D43-18DC-B7BB-1078-2DDE83DF462C">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>A61BB0D7-83ED-D984-C39C-7589BA2E0CB4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53226032-5414-B1BB-F698-03666E2F3E57" referredColumn="EDBB9682-1862-951C-4664-7D19BABCE162"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A12FB066-1634-854E-F3E8-A3A4CD402A82" name="Endereco_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>C2F1AD78-ED43-D2C6-E6A0-C0F6346B5D7D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13B78C8-FF98-66EF-34A8-D741DD163C98"/>
+<colUsage columnID="1F03D920-9A3D-EB83-0CF4-69C6C3F27FC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FD24DF3-1741-A203-4F9B-57FA19EA38B9" name="Endereco__IDX">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D956ED33-E0D9-C5D2-F835-52699F4FDA2E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4FED2D43-18DC-B7BB-1078-2DDE83DF462C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="005BBAED-65D3-A5C2-9880-F28B75331A80" name="Endereco__IDXv1">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B7F5CD07-0A40-1377-70AA-BE9940C17D6D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="90F4F916-87C2-0CB7-A6D3-A0394E8DC225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A6D2FA0-CDFC-5B1F-B125-2375A191AB3C" name="Endereco_Dependente_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>D956ED33-E0D9-C5D2-F835-52699F4FDA2E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FED2D43-18DC-B7BB-1078-2DDE83DF462C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE05B452-4CFF-0807-0F77-CC4AE1607231" name="Endereco_Titular_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>B7F5CD07-0A40-1377-70AA-BE9940C17D6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90F4F916-87C2-0CB7-A6D3-A0394E8DC225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66C7A76D-73A1-DDE8-5B05-7262F0419746" name="Mensalidade">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>14058EE1-EDD1-9B8A-82BB-4C8D9B2B38A2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="19FBA882-F9C3-8337-A837-7AC5574F52CD">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>E5707789-B59A-D3CB-A4B4-6E65FD7FD028</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMensalidade" id="8D3D6D20-35CE-531C-4629-34CA6666E4EC">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>1C415D2E-3177-CC7C-D91F-0E87B99D6A26</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vencimentoMensalidade" id="9FE927ED-D95D-E403-BFC7-B9BEF70FD50A">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>D326990B-50C1-41F3-F0E4-6F0EE1C788F4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referenciaMensalidade" id="01D99E33-76D1-A4E0-3B9D-91D7DA8E31C2">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>F6DF469F-4017-4CBE-11AC-BBCC87C6297C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPagamentoMensalidade" id="2E2A8705-DECF-E6A7-2FEE-729181DC7752">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>208ABEB0-896E-C066-0580-078738982F44</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_cpfTitular" id="B503A8B3-AF42-3D13-193C-B9D6E70D9626">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>01F904D0-2727-2B5E-2C42-AEAF0AA642A9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D90BADF0-A404-C4C8-8BB2-478FAA94D81B" referredColumn="D5E317E1-E7A5-600B-4D9E-602D3F7DFDD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D01360B-0F80-5F78-8A90-2C415C2F718C" name="Mensalidade_PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>770E6ED0-9E10-3C8C-17A2-6DEEA1FF6C4F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19FBA882-F9C3-8337-A837-7AC5574F52CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="000F22EC-CA0D-EB7D-A38E-8D09CF45BA7A" name="Mensalidade__IDX">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F2B0830B-37D8-0BA6-9993-CF4DC733B10C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B503A8B3-AF42-3D13-193C-B9D6E70D9626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C433C0DE-A6B5-F4B3-1842-4202A29D2116" name="Mensalidade_Titular_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>F2B0830B-37D8-0BA6-9993-CF4DC733B10C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B503A8B3-AF42-3D13-193C-B9D6E70D9626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

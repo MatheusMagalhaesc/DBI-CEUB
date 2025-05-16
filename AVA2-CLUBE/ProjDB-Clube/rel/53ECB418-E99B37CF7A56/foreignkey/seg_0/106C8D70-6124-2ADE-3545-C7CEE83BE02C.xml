@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="106C8D70-6124-2ADE-3545-C7CEE83BE02C" containerWithKeyObject="E4F56A55-AC53-F598-7571-424A08DF3530" localFKIndex="D8862094-C219-C6C8-F661-1B50B62ABFFC" name="Dependente_Titular_FK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-16 00:44:43 UTC</createdTime>
+<generatorID>5FD66DC3-1937-32DC-D340-94152467C800</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Titular</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1106469C-7175-ED10-03B0-7BED210F32DA</referredTableID>
+<keyObject>C0C14BED-3CC5-4BCA-2BD4-B9D72C6ED89D</keyObject>
+<referredKeyID>C0C14BED-3CC5-4BCA-2BD4-B9D72C6ED89D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cpfTitular</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

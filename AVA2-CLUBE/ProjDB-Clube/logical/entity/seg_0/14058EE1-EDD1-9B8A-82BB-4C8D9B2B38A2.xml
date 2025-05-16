@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14058EE1-EDD1-9B8A-82BB-4C8D9B2B38A2" name="Mensalidade">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:35:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="E5707789-B59A-D3CB-A4B4-6E65FD7FD028">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:35:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="1C415D2E-3177-CC7C-D91F-0E87B99D6A26">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:35:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimentoMensalidade" id="D326990B-50C1-41F3-F0E4-6F0EE1C788F4">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:35:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referenciaMensalidade" id="F6DF469F-4017-4CBE-11AC-BBCC87C6297C">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:36:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamentoMensalidade" id="208ABEB0-896E-C066-0580-078738982F44">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:37:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="01F904D0-2727-2B5E-2C42-AEAF0AA642A9">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:50:48 UTC</createdTime>
+<generatorID>F2B0830B-37D8-0BA6-9993-CF4DC733B10C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<referedAttribute>F7FA4241-257C-E7CB-9DA3-FFB491D2EB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="770E6ED0-9E10-3C8C-17A2-6DEEA1FF6C4F" name="MensalidaddeTitular PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:35:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5707789-B59A-D3CB-A4B4-6E65FD7FD028</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
