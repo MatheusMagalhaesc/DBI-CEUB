@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F6F509C-CC25-2C13-071F-7CD21461AA7B" name="Titular">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:14:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="F7FA4241-257C-E7CB-9DA3-FFB491D2EB3C">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:14:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="9A9B0FA8-66C0-B705-8656-0BB8FC0640C4">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:14:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoTitular" id="D4295AA3-DC7F-28D8-C7D1-7F2F37F3046E">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:19:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="57C4D799-4BF6-6C15-0F32-49E487B961A9">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:50:50 UTC</createdTime>
+<generatorID>F2B0830B-37D8-0BA6-9993-CF4DC733B10C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<referedAttribute>E5707789-B59A-D3CB-A4B4-6E65FD7FD028</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular2" id="4737CD96-E96E-4949-D0DD-AD387604C2DE">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:52:04 UTC</createdTime>
+<generatorID>B7F5CD07-0A40-1377-70AA-BE9940C17D6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<referedAttribute>A5B92AC8-59A1-B9E5-8E45-BA29ACF7D68F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCE80FD5-CE00-33A8-D4AB-16167A570DE3" name="Titular PK">
+<createdBy>matheus.magalhaesc</createdBy>
+<createdTime>2025-05-15 23:14:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="53ECB418-215D-4B90-115E-E99B37CF7A56" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7FA4241-257C-E7CB-9DA3-FFB491D2EB3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
